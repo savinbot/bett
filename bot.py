@@ -1,7 +1,3 @@
-import time
-import flask
-import telebot
-
 from time import sleep
 from flask import request
 from telebot import types
@@ -12,12 +8,12 @@ from models import *
 from texts import texts as messages
 from keyboards import *
 
+import time
+import flask
+import telebot
+
 from sqlalchemy import desc
 
-import redis
-import os
-token = os.environ['TELEGRAM_TOKEN']
-some_api_token = os.environ['SOME_API_TOKEN']
 states = {}
 
 back_states = {}

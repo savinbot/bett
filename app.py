@@ -18,9 +18,9 @@ db = SQLAlchemy(app)
 
 kassa = FK()
 
-bot = TeleBot('772665816:AAEOQNDmXFd5CHUMX__N6x8m9ErvUtt8r_M')
+bot = TeleBot('982289200:AAGs-xuy7PHgsEXDQui4uFATxgOpKHtMlSw')
 
-admins = [435600486, 631997243, 686676371, 647599306, 738551202, 796269232]
+admins = [865473632]
 
 WEBHOOK_URL = f''
 WEBHOOK_LISTEN = ''
